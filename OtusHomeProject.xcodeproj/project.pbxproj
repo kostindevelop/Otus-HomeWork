@@ -14,6 +14,8 @@
 		A9722F2725EB1AAA0010BE75 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9722F2625EB1AAA0010BE75 /* ContactCell.swift */; };
 		A9722F2B25EB1B050010BE75 /* ContactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9722F2A25EB1B050010BE75 /* ContactScreen.swift */; };
 		A9722F3525EB1F760010BE75 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9722F3425EB1F760010BE75 /* ModalScreen.swift */; };
+		A9722F3A25EBA4530010BE75 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9722F3925EBA4530010BE75 /* SwiftUIView.swift */; };
+		A9722F3E25EBAF830010BE75 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9722F3D25EBAF830010BE75 /* ContactModel.swift */; };
 		A99C143225EB0BA90071C250 /* OtusHomeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C143125EB0BA90071C250 /* OtusHomeProjectApp.swift */; };
 		A99C143425EB0BA90071C250 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99C143325EB0BA90071C250 /* TabBarView.swift */; };
 		A99C143625EB0BAC0071C250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99C143525EB0BAC0071C250 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		A9722F2625EB1AAA0010BE75 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		A9722F2A25EB1B050010BE75 /* ContactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactScreen.swift; sourceTree = "<group>"; };
 		A9722F3425EB1F760010BE75 /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
+		A9722F3925EBA4530010BE75 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A9722F3D25EBAF830010BE75 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		A99C142E25EB0BA90071C250 /* OtusHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99C143125EB0BA90071C250 /* OtusHomeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusHomeProjectApp.swift; sourceTree = "<group>"; };
 		A99C143325EB0BA90071C250 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		A9722F1225EB10E00010BE75 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				A9722F3C25EBAF5E0010BE75 /* Model */,
+				A9722F3825EBA40E0010BE75 /* ViewModel */,
 				A9722F2525EB1A8A0010BE75 /* Cell */,
 				A9722F1725EB15300010BE75 /* ListScreen.swift */,
 			);
@@ -110,6 +116,22 @@
 				A9722F3425EB1F760010BE75 /* ModalScreen.swift */,
 			);
 			path = Modal;
+			sourceTree = "<group>";
+		};
+		A9722F3825EBA40E0010BE75 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A9722F3925EBA4530010BE75 /* SwiftUIView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A9722F3C25EBAF5E0010BE75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9722F3D25EBAF830010BE75 /* ContactModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A99C142525EB0BA90071C250 = {
@@ -259,11 +281,13 @@
 				A9722F2225EB172E0010BE75 /* TapMeButtonStyle.swift in Sources */,
 				A9722F1525EB11160010BE75 /* MainScreen.swift in Sources */,
 				A9722F2B25EB1B050010BE75 /* ContactScreen.swift in Sources */,
+				A9722F3A25EBA4530010BE75 /* SwiftUIView.swift in Sources */,
 				A9722F1D25EB16520010BE75 /* OpenModalScreen.swift in Sources */,
 				A9722F1825EB15300010BE75 /* ListScreen.swift in Sources */,
 				A99C143425EB0BA90071C250 /* TabBarView.swift in Sources */,
 				A9722F2725EB1AAA0010BE75 /* ContactCell.swift in Sources */,
 				A99C143225EB0BA90071C250 /* OtusHomeProjectApp.swift in Sources */,
+				A9722F3E25EBAF830010BE75 /* ContactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

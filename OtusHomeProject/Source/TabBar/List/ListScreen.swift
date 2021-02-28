@@ -9,14 +9,17 @@ import SwiftUI
 
 struct ListScreen: View {
     
+    @ObservedObject var viewModel: ListScreenViewModel = .init()
+    
     var body: some View {
         NavigationView {
             List {
-                ContactCell(name: "Jony")
-                ContactCell(name: "Dima")
-                ContactCell(name: "Konstantin")
+                ForEach(viewModel.contacts) {
+                    ContactCell(name: $0.name)
+                }
             }
         }
+        .navigationTitle("My List")
     }
 }
 
