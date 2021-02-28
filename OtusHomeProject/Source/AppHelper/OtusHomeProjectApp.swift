@@ -11,7 +11,7 @@ import SwiftUI
 struct OtusHomeProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
 }
